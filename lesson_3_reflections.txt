@@ -13,12 +13,12 @@ use one instead of another?
 
     fork: clone from another github repository to your github repository
     clone: clone from github repository to your local repository or from local repository to another local repository
-    branches: different labels of commits 
+    branches: different labels of commits
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    So that we can use the local copy of remote branch to compared with the actual remote branch later on, and decide if the later pull should have a new merge commit or just a fast forward merge.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
